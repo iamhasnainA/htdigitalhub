@@ -1,0 +1,23 @@
+/* Hide the context menu by default */
+#contextMenu {
+    display: none;
+    position: absolute; /* Position it absolutely */
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px 0; /* Padding for the menu */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Style for menu items */
+.context-menu-item {
+    padding: 8px 16px; /* Padding for each item */
+    color: #333; /* Dark gray text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.context-menu-item:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+}
